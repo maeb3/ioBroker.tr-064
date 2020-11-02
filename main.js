@@ -175,6 +175,10 @@ const states = {
     },
     abIndex: {name: 'abIndex', val: 0, common: {}, native: {func: 'setABIndex'}},
     ab: {name: 'ab', val: false, common: {desc: 'parameter: index, state'}, native: {func: 'setAB'}},
+    /* BEGIN new datapoints*/
+    abJSON: {name: 'abJSON', val: {}, common: {desc: 'AB data as JSON'}, native: {func: 'anJSON'}},
+    abNumofmessages: {name: 'abNumofmessages', val: 0, common: {desc: 'Number of messages'}, native: {func: 'abNumofmessages'}},
+    /* END new datapoints*/
     ring: {
         name: 'ring',
         val: '**610',
